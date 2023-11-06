@@ -11,7 +11,7 @@ def update():
     date_lab.config(text=date_str)
 window = Tk()
 window.title("clock")
-photo=PhotoImage(file="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx69jQE6C6AN0iUldsqW0hPXbiqG3oRlvNAYs14g6jTy6E42zJaJ1xa5sPbqmrJeggi5U&usqp=CAU")
+photo=PhotoImage(file="Assets\clock.png")
 window.iconphoto(False,photo)
 time_lab=Label(window,font=("yellow",50),bg="yellow")
 time_lab.pack()
