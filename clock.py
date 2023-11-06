@@ -1,5 +1,5 @@
-from tkinter import*
-from time import*
+from tkinter import Tk,PhotoImage, Label
+from time import strftime
 
 def update():
     time_str = strftime("%I : %M : %S :%p")
@@ -11,7 +11,7 @@ def update():
     date_lab.config(text=date_str)
 window = Tk()
 window.title("clock")
-photo=PhotoImage(file="Assets\clock.png")
+photo = PhotoImage(master=window, file="Assets/clock.png")
 window.iconphoto(False,photo)
 time_lab=Label(window,font=("yellow",50),bg="yellow")
 time_lab.pack()

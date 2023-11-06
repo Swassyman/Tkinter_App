@@ -1,4 +1,4 @@
-from tkinter import 
+from tkinter import Toplevel,Tk
 
 class notes_app:
     def __init__(self, root):
@@ -12,10 +12,10 @@ class notes_app:
        
 
 def open_notes():
-    note = tk.Toplevel()
+    note = Toplevel()
     app = notes_app(note)
 
 if __name__ == "__main__":
-    root = tk.Tk()
+    root = Tk()
     app = notes_app(root)
     root.mainloop()

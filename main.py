@@ -1,48 +1,39 @@
-from tkinter import Tk,Toplevel,Button, PhotoImage
+from tkinter import Tk,Button, PhotoImage
+import Apps
 
-root = Tk()
-#Icons
-root_icon = PhotoImage(file="Assets/app_launcher_icon.png")
-calc_icon = PhotoImage(file = "Assets/calculator-icon.png")
-#main root properties
-
-
-root.title("App Launcher")
-root.geometry("700x500")
-root.resizable(False,False)
-root.configure(bg="#49de71")
-root.iconphoto(False,root_icon)
-
-#Functions for each app added
-
-def open_calculator():
-    calculator = Toplevel(root)
-    calculator.iconphoto(False,calc_icon)
-    calculator.mainloop()
+def main():
+    root = Tk()
+    #Icons
+    root_icon = PhotoImage(file="Assets/app_launcher_icon.png")
+    #main root properties
     
-def open_calendar():
-    calendar = Toplevel(root)
-    calendar.mainloop()
     
-def open_notes():
-    notes = Toplevel(root)
-    notes.mainloop()
+    root.title("App Launcher")
+    root.geometry("700x500")
+    root.resizable(False,False)
+    root.configure(bg="#49de71")
+    root.iconphoto(False,root_icon)
+    
+    #Functions for each app added
+    
 
-#Icons
-root_icon = PhotoImage(file="Assets/app_launcher_icon.png")
+    #Icons
+    
+    
+    #Buttons to open each app
+    # notes_button = Button(root,text="Notes",command = open_notes)
+    # notes_button.place(x=5,y=5)
+    # notes_button.config(height=20,width=30)
+        
+    calendar_button = Button(root, text="Clock",command = Apps.open_clock)
+    calendar_button.place(x=239,y=5)
+    calendar_button.config(height=20,width=30)
 
+    # calculator_button = Button(root,text="Calculator",command = open_calculator)
+    # calculator_button.config(height=20,width=30)
+    # calculator_button.place(x=472,y=5)
 
-#Buttons to open each app
-notes_button = Button(root,text="Notes",command = open_notes)
-notes_button.place(x=5,y=5)
-notes_button.config(height=20,width=30)
-
-calendar_button = Button(root, text="Calendar",command = open_calendar)
-calendar_button.place(x=239,y=5)
-calendar_button.config(height=20,width=30)
-
-calculator_button = Button(root,text="Calculator",command = open_calculator)
-calculator_button.config(height=20,width=30)
-calculator_button.place(x=472,y=5)
-
-root.mainloop()
+    root.mainloop()
+    
+if __name__ == "__main__":
+    main()
