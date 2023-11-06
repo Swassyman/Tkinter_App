@@ -3,7 +3,7 @@ from tkinter import Tk,Toplevel,Button, PhotoImage
 root = Tk()
 #Icons
 root_icon = PhotoImage(file="Assets/app_launcher_icon.png")
-
+calc_icon = PhotoImage(file = "Assets/calculator-icon.png")
 #main root properties
 
 
@@ -17,6 +17,7 @@ root.iconphoto(False,root_icon)
 
 def open_calculator():
     calculator = Toplevel(root)
+    calculator.iconphoto(False,calc_icon)
     calculator.mainloop()
     
 def open_calendar():
