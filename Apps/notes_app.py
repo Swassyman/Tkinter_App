@@ -4,7 +4,7 @@ class notes_app:
     def __init__(self, root):
         self.root = root
         self.root.title("Notes")
-        
+        root.destroy()
         # Create widgets for the second window
         # from here
         
