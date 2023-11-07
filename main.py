@@ -29,9 +29,9 @@ def main():
     calendar_button.place(x=239,y=5)
     calendar_button.config(height=20,width=30)
 
-    # calculator_button = Button(root,text="Calculator",command = open_calculator)
-    # calculator_button.config(height=20,width=30)
-    # calculator_button.place(x=472,y=5)
+    calculator_button = Button(root,text="Calculator",command = Apps.open_calc)
+    calculator_button.config(height=20,width=30)
+    calculator_button.place(x=472,y=5)
 
     root.mainloop()
     

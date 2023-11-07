@@ -1,4 +1,4 @@
-from tkinter import equation, Toplevel, Tk
+from tkinter import Toplevel, Tk
 
 class notes_app:
     def __init__(self, root):
