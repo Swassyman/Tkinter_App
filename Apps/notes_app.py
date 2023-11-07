@@ -1,4 +1,4 @@
-from tkinter import Toplevel,Tk
+from tkinter import equation, Toplevel, Tk
 
 class notes_app:
     def __init__(self, root):
@@ -7,10 +7,8 @@ class notes_app:
         root.destroy()
         # Create widgets for the second window
         # from here
+
         
-
-       
-
 def open_notes():
     note = Toplevel()
     app = notes_app(note)
