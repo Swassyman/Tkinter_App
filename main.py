@@ -21,9 +21,9 @@ def main():
     
     
     #Buttons to open each app
-    # notes_button = Button(root,text="Notes",command = open_notes)
-    # notes_button.place(x=5,y=5)
-    # notes_button.config(height=20,width=30)
+    notes_button = Button(root,text="Notes",command = Apps.open_notes)
+    notes_button.place(x=5,y=5)
+    notes_button.config(height=20,width=30)
         
     calendar_button = Button(root, text="Clock",command = Apps.open_clock)
     calendar_button.place(x=239,y=5)
