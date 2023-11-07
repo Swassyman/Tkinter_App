@@ -17,7 +17,7 @@ class clock_app:
             date_str = strftime("%d :%B:%Y")
             date_lab.config(text=date_str)
         clock = Tk()
-        clock.title("clock")
+        clock.title("Clock")
         clock.resizable(False,False)
         photo = PhotoImage(master=clock, file="C:/Code/Tkinter_App/Assets/clock.png")
         clock.iconphoto(False,photo)

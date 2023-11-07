@@ -33,9 +33,12 @@ class calc_app:
             equation.set("")
             
         calculator=Tk()
+        calculator.title("Calculator")
         calculator.configure(background="#07398a")
         calculator.geometry("350x300")
         calculator.resizable(False,False)
+        photo = PhotoImage(master=calculator, file ="C:/Code/Tkinter_App/Assets/calculator-icon.png")
+        calculator.iconphoto(False,photo)
         
         equation = StringVar()
         expression_field = Entry(calculator,textvariable=equation,width=30,font=('Arial', 20))
