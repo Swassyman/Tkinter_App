@@ -3,7 +3,7 @@ For our Lab Assignment
 
 An App Launcher using Tkinter
 
-#Preview
+# Preview
 
 <h1>App Launcher</h1>
 <img src="Assets/app_launcher_preview.png">
