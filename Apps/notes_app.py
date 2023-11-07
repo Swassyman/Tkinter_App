@@ -1,4 +1,4 @@
-from tkinter import Toplevel, Tk,Text,Menu,WORD,BOTH,filedialog,END,messagebox
+from tkinter import Toplevel, Tk,Text,Menu,WORD,BOTH,filedialog,END,messagebox,PhotoImage
 
 class notes_app:
     def __init__(self, root):
@@ -8,7 +8,8 @@ class notes_app:
         # from here
         
         root.title("Notepad")
-
+        photo = PhotoImage(master=root,file="C:/Code/Tkinter_App/Assets/notes_icon.png")
+        root.iconphoto(False,photo)
         text_widget = Text(root, wrap=WORD)
         text_widget.pack(fill=BOTH, expand=True)
 

@@ -5,20 +5,13 @@ def main():
     root = Tk()
     #Icons
     root_icon = PhotoImage(file="Assets/app_launcher_icon.png")
+    
     #main root properties
-    
-    
     root.title("App Launcher")
     root.geometry("700x500")
     root.resizable(False,False)
     root.configure(bg="#49de71")
     root.iconphoto(False,root_icon)
-    
-    #Functions for each app added
-    
-
-    #Icons
-    
     
     #Buttons to open each app
     notes_button = Button(root,text="Notes",command = Apps.open_notes)
