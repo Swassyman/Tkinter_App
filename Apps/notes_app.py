@@ -95,7 +95,7 @@ class notes_app:
         menu_bar.add_cascade(label="Help", menu=help_menu)
 
         def about():
-            messagebox.showinfo("About Notepad", "A simple Notepad application created using Python and Tkinter.")
+            messagebox.showinfo("About Notepad", "A simple Notepad")
 
         help_menu.add_command(label="About", command=about)
 
