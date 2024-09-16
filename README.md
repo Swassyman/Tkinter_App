@@ -6,23 +6,23 @@ An App Launcher using Tkinter
 ## Screenshots
 <hr>
 <br>
-App Launcher
+App Launcher 
 
 ![Screenshot from 2024-09-16 11-52-25](https://github.com/user-attachments/assets/0355f593-b71b-47e9-a030-1da43ebd5a58)
 <br>
 
- Clock
+ Clock  [@witch52] (https://github.com/witch52)
 <br>
 
 ![clock_preview](https://github.com/user-attachments/assets/9561cf4d-5d2b-462f-bab3-c2898e6689cf)
 
 <br>
-Notepad
+Notepad [@SoloHollow] (https://github.com/SoloHollow)
 
 ![notepad_preview](https://github.com/user-attachments/assets/f4727445-cb80-4805-a083-241a15676a12)
 
 <br>
-Calculator 
+Calculator [@Swassyman] (https://github.com/Swassyman)
 
 ![calculator_preview](https://github.com/user-attachments/assets/70a4ad8f-8a1c-493b-abc6-ad46793d52c6)
 
