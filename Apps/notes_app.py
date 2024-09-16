@@ -8,7 +8,7 @@ class notes_app:
         # from here
         
         root.title("Notepad")
-        photo = PhotoImage(master=root,file="C:/Code/Tkinter_App/Assets/notes_icon.png")
+        photo = PhotoImage(master=root,file="Assets/notes_icon.png")
         root.iconphoto(False,photo)
         text_widget = Text(root, wrap=WORD)
         text_widget.pack(fill=BOTH, expand=True)

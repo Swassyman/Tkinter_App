@@ -17,7 +17,7 @@ class clock_app:
             date_lab.config(text=date_str)
         root.title("Clock")
         root.resizable(False,False)
-        photo = PhotoImage(master=root, file="C:/Code/Tkinter_App/Assets/clock.png")
+        photo = PhotoImage(master=root, file="Assets/clock.png")
         root.iconphoto(False,photo)
         time_lab=Label(root,font=("yellow",50),bg="yellow")
         time_lab.pack()

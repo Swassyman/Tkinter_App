@@ -5,7 +5,7 @@ import Apps
 def main():
     root = Tk()
     #Icons
-    root_icon = ImageTk.PhotoImage(file="Assets/app_launcher_icon.png")
+    root_icon = ImageTk.PhotoImage(file="Apps/Assets/app_launcher_icon.png")
     
     #main root properties
     root.title("App Launcher")
@@ -21,7 +21,7 @@ def main():
     canvas.place(x=200,y=355)
 
 #Load an image in the script
-    img= (Image.open("Assets/app_launcher_icon.png"))
+    img= (Image.open("Apps/Assets/app_launcher_icon.png"))
 
 #Resize the Image using resize method
     resized_image= img.resize((80,70), Image.LANCZOS)

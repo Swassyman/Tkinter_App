@@ -35,7 +35,7 @@ class calc_app:
         master.configure(background="#07398a")
         master.geometry("350x300")
         master.resizable(False,False)
-        photo = PhotoImage(master=master, file ="C:/Code/Tkinter_App/Assets/calculator-icon.png")
+        photo = PhotoImage(master=master, file ="Assets/calculator-icon.png")
         master.iconphoto(False,photo)
         
         self.equation = StringVar()
